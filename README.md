@@ -20,7 +20,7 @@ To install a MATLAB toolbox, open MATLAB and go to the 'Home' tab. Click on 'Add
 
 **You must also download three large files from external URLs** indicated in the file directory below.
 
-Note that due to large matrices, the execution of this teaching directory is memory-intensive. Even with large internal memory (RAM), you may receive out-of-memory error messages. To avoid this, ensure you assign plenty of virtual memory (e.g., 32GB) on your system, preferably on a solid-state drive. Using virtual memory will increase computational time, but it will at least ensure that the codes execute successfully.
+Note that due to large matrices, the execution of this teaching directory is memory-intensive. Even with large internal memory (RAM), you may receive out-of-memory error messages. To avoid this, ensure you **assign plenty of virtual memory** (e.g., 32GB) on your system, preferably on a solid-state drive. Using virtual memory will increase computational time, but it will at least ensure that the codes execute successfully.
 
 **How to Use the Toolkit**
 
