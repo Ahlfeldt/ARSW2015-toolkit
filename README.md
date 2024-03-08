@@ -1,12 +1,10 @@
-**The Economics of Density: Evidence from the Berlin Wall**
-
-**Toolkit**
+# The Economics of Density: Evidence from the Berlin Wall - toolkit
 
 © Gabriel M. Ahlfeldt, S. J. Redding, D. Sturm, N. Wolf
 
 Version 0.91, 2024
 
-**General Instructions**
+##General Instructions
 
 This toolkit complements the original replication directory for Ahlfeldt, Redding, Sturm, Wolf (2015). The toolkit does not cover all stages of the analysis presented in the article. Instead, it covers a subset of codes that are crucial for the quantification and simulation of the model using 2006 data. Detailed comments have been added to all scripts to provide intuition and closer links to the model described in the article and supplement. Some codes have been processed to make them more accessible, reducing the memory requirements and facilitating faster execution on desktop computers. For the same reason, we use trimmed versions of the datasets, which contain variables that are essential for the purpose of this teaching directory. Any data set or program that has been substantively altered (other than adding comments) is marked by a "_TD" suffix in the filename.
 
@@ -24,7 +22,7 @@ To install a MATLAB toolbox, open MATLAB and go to the 'Home' tab. Click on 'Add
 
 Note that due to large matrices, the execution of this teaching directory is memory-intensive. Even with large internal memory (RAM), you may receive out-of-memory error messages. To avoid this, ensure you **assign plenty of virtual memory** (e.g., 32GB) on your system, preferably on a solid-state drive. Using virtual memory will increase computational time, but it will at least ensure that the codes execute successfully.
 
-**How to Use the Toolkit**
+## How to Use the Toolkit
 
 The toolkit is designed as a didactic journey through the codes essential for the quantification and the simulation of the model. The aim is to convey how to quantify the model and conduct simple counterfactuals.
 
