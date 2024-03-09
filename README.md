@@ -68,6 +68,7 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
  `matlab/section6/optimepsilon/optimepsilon_TD86.m` | Script containing the steps involved in the one-step estimation of epsilon. | -|
 |  `matlab/section6/optimepsilon/comegaopt0.m` | Function containing the solver that solves for transformed wages omega. | -|
 |  `matlab/section6/optimepsilon/cdensityoptren.m` | Objective function that is being minimized when estimating epsilon. | -|
+| `matlab/section6/optimepsilon/cdensityoptren.m' | Small program to keep selected objects |  -|
 
 **Section 6 quantification with exogenous amenities (sequential procedure)** 
 
