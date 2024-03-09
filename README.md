@@ -56,8 +56,9 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 | `matlab/prepdata_TD06ftpub.m` | Reads 2006 travel times without cars and saves them as ttpublic_2006_ren.mat for use in counterfactuals. | You do not need to execute this file unless you want to add variables from the replication directory or you want to recreate the `ttpublic_2006_ren.mat` file from the original data in the replication directory. |
 | **`matlab/MAPIT`** | Function that can be called to create simple maps that illustrate outcomes by block. Useful to develop an intuition for the variables that are being generated and how they relate to each other economically. Especially if you are familiar with the geography of Berlin. | |
 
-One-step epsilon estimation and Section 6 Quantification with Exogenous Amenities 
+**One-step epsilon estimation and Section 6 Quantification with Exogenous Amenities** 
 
+| Script | Description | Special Instructions |
 | --- | --- | --- |
 | **One-step epsilon estimation** | `matlab/section6/optimepsilon/optimepsilon_TD86.m` | Script containing the steps involved in the one-step estimation of epsilon. |
 |  | `matlab/section6/optimepsilon/comegaopt0.m` | Function containing the solver that solves for transformed wages omega. |
