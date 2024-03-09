@@ -1,13 +1,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Master do file for the teaching directory to        %%%
-%%% directory to Ahlfeldt, Redding, Sturm, Wolf (2015)  %%%
-%%% by Gabriel M. Ahlfeldt 01/2024                      %%%
+%%% Master MATLAB programme file for the toolkit for    %%%
+%%% Ahlfeldt, Redding, Sturm, Wolf (2015)               %%%
+%%% Economics of density: Evidence from teh Berlin Wall %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First version: GMA, 01/2ß24                           %%%
+% Last updated by GMA 03/2024                           %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% The teaching directory builds on the replicati      %%%
-%%% directory to Ahlfeldt, Redding, Sturm, Wolf (2015)  %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% This program is not part of the orginal replication directory       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Please the following toolboxes
     % Global optimization

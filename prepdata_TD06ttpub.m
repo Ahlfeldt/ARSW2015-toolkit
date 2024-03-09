@@ -1,10 +1,16 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% The orginal version of this file was part of the replication        %%%
-%%% directory to Ahlfeldt, Redding, Sturm, Wolf (2015)                  %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% MATLAB programme file for the toolkit for           %%%
+%%% Ahlfeldt, Redding, Sturm, Wolf (2015)               %%%
+%%% Economics of density: Evidence from teh Berlin Wall %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First version: SJR, 02/2015                           %%%
+% Last updated by GMA 03/2024                           %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% This converts the 2006 public transport matrix into a matlab file   %%%
+%%% This program is not part of the orginal replication directory       %%%
+%%% This program converts the 2006 public transport matrix into a       %%%
+%%% matlab file                                                         %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear;

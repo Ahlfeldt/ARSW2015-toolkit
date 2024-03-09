@@ -1,17 +1,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% This function complements the teaching directory to %%%
-%%% directory to Ahlfeldt, Redding, Sturm, Wolf (2015)  %%%
-%%% by Gabriel M. Ahlfeldt (C) 2024                     %%%
+%%% MATLAB programme file for the toolkit for           %%%
+%%% Ahlfeldt, Redding, Sturm, Wolf (2015)               %%%
+%%% Economics of density: Evidence from teh Berlin Wall %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First version: GMA, 01/2024                           %%%
+% Last updated by GMA 03/2024                           %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Function created by Gabriel M. Ahlfeldt in 2024 %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%% This function merges a block-level outcome to a shapefile of
-%%% statistical blocks, generates a map, and saves it at a desired
-%%% destination
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% This function is not part of the orginal replication directory      %%%
+%%% This function merges a block-level outcome to a shapefile of        %%%
+%%% statistical blocks, generates a map, and saves it at a desired      %%%
+%%% destination                                                         %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % This below program uses the following inputs
     % shapefile is the the block shapefile to which the outputs are beign merged

@@ -1,11 +1,16 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% The orginal version of this file was part of the replication        %%%
-%%% directory to Ahlfeldt, Redding, Sturm, Wolf (2015)                  %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% MATLAB programme file for the toolkit for           %%%
+%%% Ahlfeldt, Redding, Sturm, Wolf (2015)               %%%
+%%% Economics of density: Evidence from teh Berlin Wall %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First version: SJR, 02/2015                           %%%
+% Last updated by GMA 03/2024                           %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% This version has modified by Gabriel M. Ahlfeldt in 2024            %%%
-%%% It produces a smaller working file that containy only 2006 data     %%%
+%%% This programme is based on a programme in the replication directory %%%
+%%% This version generates a smaller working file that containy only    %%%
+%%% 2006 data                                                           %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear;
