@@ -56,4 +56,19 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 | `matlab/prepdata_TD06ftpub.m` | Reads 2006 travel times without cars and saves them as ttpublic_2006_ren.mat for use in counterfactuals. | You do not need to execute this file unless you want to add variables from the replication directory or you want to recreate the `ttpublic_2006_ren.mat` file from the original data in the replication directory. |
 | **`matlab/MAPIT`** | Function that can be called to create simple maps that illustrate outcomes by block. Useful to develop an intuition for the variables that are being generated and how they relate to each other economically. Especially if you are familiar with the geography of Berlin. | |
 
+## One-step epsilon estimation and Section 6 Quantification with Exogenous Amenities
+
+| Category | Script | Description |
+| --- | --- | --- |
+| **One-step epsilon estimation** | `matlab/section6/optimepsilon/optimepsilon_TD86.m` | Script containing the steps involved in the one-step estimation of epsilon. |
+|  | `matlab/section6/optimepsilon/comegaopt0.m` | Function containing the solver that solves for transformed wages omega. |
+|  | `matlab/section6/optimepsilon/cdensityoptren.m` | Objective function that is being minimized when estimating epsilon. |
+| **Section 6 quantification with exogenous amenities (sequential procedure)** | `matlab/section6/calibration/calcal_TD.m` | Script containing the steps involved in the quantification. |
+|  | `matlab/section6/calibration/calcal_adj_TD.m` | Program that rescales amenities and productivities so that they generate a population in the data that matches the model. This program has no equivalent in the original replication directory. It only needs to be run if you are interested in the level of productivities and amenities. It must be run if you want to use the amenities and productivities recovered in this section in the smodemx.m solver in Section 6. |
+|  | `/matlab/section6/calibration/comegaoptC.m` | Function that recovers adjusted productivities and adjusted wages. |
+|  | `/matlab/section6/calibration/camen.m` | Function that recovers commuting adjusted amenities. |
+|  | `/matlab/section6/calibration/expincome.m` | Function that recovers total expected worker income. |
+|  | `/matlab/section6/calibration/cdensity.m` | Function that recovers density of development, total floor space, residential floor space share. |
+|  | `/matlab/section6/calibration/modbezirk.m` | Function that generates modern Bezirke identifier. |
+
 
