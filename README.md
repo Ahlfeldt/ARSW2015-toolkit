@@ -98,3 +98,18 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 | `ubar.m` | Function that recovers the exogenous reservation utility level. |  |
 | `smodendog.m` | Function that solves for the equilibrium under endogenous agglomeration forces in the closed-city case (exogenous total employment). |  |
 | `ussmodendog.m` | Function that solves for the equilibrium under endogenous agglomeration forces in the open-city case (exogenous utility). |  |
+
+## Shapefiles
+
+| Name | Description |
+| --- | --- |
+| `BerlinAllBlocks` | Full block shapefile from Senatsverwaltung (public administration) |
+| `Berlin4matlab` | Trimmed version of the BerlinAllBlocks shapefile, containing only blocks with workplace or residence employment, indexed in the same way as MATLAB data set |
+| `WestBerlin4matlab` | Same as Berlin4matlab, but restricted to blocks in former West Berlin |
+| `BerlinGreen` | Shapefile of green spaces |
+| `BerlinWater` | Shapefile of water bodies |
+
+## Further resources:
+
+Ahlfeldt, Redding, Sturm, Wolf (2015): The Economics of Density: Evidence from the Berlin Wall, 83(6), p. 21272189. [https://doi.org/10.3982/ECTA10876](https://doi.org/10.3982/ECTA10876). The journal website provides the link to the full replication directory.
+
