@@ -86,3 +86,15 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 | **`matlab/section6/exogcfutal/cftualexog_TD`** | Runs illustrative counterfactuals and illustrates the effects on endogenous outcomes. | |
 | `matlab/section6/exogcfutal/smodex` | Program that solves for the equilibrium for given primitives under exogenous fundamentals in the closed-city case (exogenous employment).  | |
 
+**Section 7 Counterfactuals with Endogenous Agglomeration Forces**
+
+| Script | Description | Special Instructions |
+| --- | --- | --- |
+| `cftualprep_end_TD.m` | Prepares data for the counterfactuals with endogenous fundamentals (generates matlab/data/endogcfual_prep_big_TD.mat). Illustrates various recovered variables and performs a comparison to the fundamentals recovered using the sequential procedure in the section6/calibration folder. |  |
+| `Cftalendog_HHbar_TD.m` | Conducts illustrative counterfactuals under endogenous agglomeration forces in a closed city and compares the results to the case with exogenous fundamentals. |  |
+| `Cftalendog_Ubar_TD.m` | Conducts illustrative counterfactuals under endogenous agglomeration forces in an open city and compares the results to the closed-city case. |  |
+| `cprod.m` | Function that decomposes productivities recovered by cmodexog.m into endogenous and exogenous components. |  |
+| `cres.m` | Function that decomposes amenities recovered by cmodexog.m into endogenous and exogenous components. |  |
+| `ubar.m` | Function that recovers the exogenous reservation utility level. |  |
+| `smodendog.m` | Function that solves for the equilibrium under endogenous agglomeration forces in the closed-city case (exogenous total employment). |  |
+| `ussmodendog.m` | Function that solves for the equilibrium under endogenous agglomeration forces in the open-city case (exogenous utility). |  |
