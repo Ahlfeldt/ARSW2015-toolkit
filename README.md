@@ -1,4 +1,4 @@
-# The Economics of Density: Evidence from the Berlin Wall - toolkit
+# The Economics of Density: Evidence from the Berlin Wall--toolkit
 
 **© Gabriel M. Ahlfeldt, S. J. Redding, D. Sturm, N. Wolf**
 
