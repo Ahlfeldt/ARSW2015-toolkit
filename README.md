@@ -80,9 +80,9 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 
 | Script | Description | Special Instructions |
 | --- | --- | --- |
-| **`matlab/section6/exogcfutal/cfprep_TD.m`** | Prepares data for the counterfactuals with exogenous fundamentals (generates exogcfutal_prep_big_TD.mat). Illustrates various recovered variables and performs a comparison to the fundamentals recovered using the sequential procedure in the section6/calibration folder. | -|
-| `matlab/section6/exogcfutal/cmodexog.m` | Function that inverts amenities and productivities and solves for equilibrium wages given observed data simultaneously. Called by cfprep_TD.m. | -|
-| `matlab/section6/calibration/cdensityE.m` | Function that recovers density of development, total floor space, commercial floor space, residential floor space, and commercial floor space share. Called by cfprep_TD.m. | -|
-| **`matlab/section6/exogcfutal/cftualexog_TD`** | Runs illustrative counterfactuals. | -|
-| `matlab/section6/exogcfutal/smodex` | Program that solves for the equilibrium for given primitives under exogenous fundamentals in the closed-city case (exogenous employment).  | -|
+| **`matlab/section6/exogcfutal/cfprep_TD.m`** | Prepares data for the counterfactuals with exogenous fundamentals (generates exogcfutal_prep_big_TD.mat). Illustrates various recovered variables and performs a comparison to the fundamentals recovered using the sequential procedure in the section6/calibration folder. |  |
+| `matlab/section6/exogcfutal/cmodexog.m` | Function that inverts amenities and productivities and solves for equilibrium wages given observed data simultaneously. Called by cfprep_TD.m. | |
+| `matlab/section6/calibration/cdensityE.m` | Function that recovers density of development, total floor space, commercial floor space, residential floor space, and commercial floor space share. Called by cfprep_TD.m. | |
+| **`matlab/section6/exogcfutal/cftualexog_TD`** | Runs illustrative counterfactuals and illustrates the effects on endogenous outcomes. | |
+| `matlab/section6/exogcfutal/smodex` | Program that solves for the equilibrium for given primitives under exogenous fundamentals in the closed-city case (exogenous employment).  | |
 
