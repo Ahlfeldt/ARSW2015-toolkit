@@ -55,11 +55,11 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 
 | Script | Description | Special Instructions |
 | --- | --- | --- |
-| **`matlab/META.m`** | Meta file that calls other code files to execute the analysis. Your journey through the teaching directory starts here! | |
+| **`matlab/META.m`** | Meta file that calls other code files to execute the analysis. Your journey through the teaching directory starts here! | -|
 | `matlab/prepdata_TD.m` | Loads various data files provided in the replication directory. Many files are not read in this teaching directory to save space. Output is saved as Matlab/data/prepdata_big_TD.mat. | You do not need to execute this programme unless you want to recreate the `prepdata_big_TD.mat` file from data provided in the replication directory. |
 | `matlab/prepdata_TD86.m` | Loads various data files provided in the replication directory. Many files are not read in this teaching directory to save space. Output is saved as Matlab/data/prepdata_big_TD86.mat. | You do not need to execute this programme unless you want to to recreate the `prepdata_big_TD86.mat` file from data provided in the replication directory. |
 | `matlab/prepdata_TD06ftpub.m` | Reads 2006 travel times without cars and saves them as ttpublic_2006_ren.mat for use in counterfactuals. | You do not need to execute this programme unless you want to recreate the `ttpublic_2006_ren.mat` file from data provided in the replication directory. |
-| **`matlab/MAPIT`** | Function that can be called to create simple maps that illustrate outcomes by block. Useful to develop an intuition for the variables that are being generated and how they relate to each other economically. Especially if you are familiar with the geography of Berlin. | |
+| **`matlab/MAPIT`** | Function that can be called to create simple maps that illustrate outcomes by block. Useful to develop an intuition for the variables that are being generated and how they relate to each other economically. Especially if you are familiar with the geography of Berlin. | -|
 
 **One-step epsilon estimation**
 
@@ -86,24 +86,24 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 
 | Script | Description | Special Instructions |
 | --- | --- | --- |
-| **`matlab/section6/exogcfutal/cfprep_TD.m`** | Prepares data for the counterfactuals with exogenous fundamentals (generates exogcfutal_prep_big_TD.mat). Illustrates various recovered variables and performs a comparison to the fundamentals recovered using the sequential procedure in the section6/calibration folder. |  |
-| `matlab/section6/exogcfutal/cmodexog.m` | Function that inverts amenities and productivities and solves for equilibrium wages given observed data simultaneously. Called by cfprep_TD.m. | |
-| `matlab/section6/calibration/cdensityE.m` | Function that recovers density of development, total floor space, commercial floor space, residential floor space, and commercial floor space share. Called by cfprep_TD.m. | |
-| **`matlab/section6/exogcfutal/cftualexog_TD`** | Runs illustrative counterfactuals and illustrates the effects on endogenous outcomes. | |
-| `matlab/section6/exogcfutal/smodex` | Program that solves for the equilibrium for given primitives under exogenous fundamentals in the closed-city case (exogenous employment).  | |
+| **`matlab/section6/exogcfutal/cfprep_TD.m`** | Prepares data for the counterfactuals with exogenous fundamentals (generates exogcfutal_prep_big_TD.mat). Illustrates various recovered variables and performs a comparison to the fundamentals recovered using the sequential procedure in the section6/calibration folder. |  -|
+| `matlab/section6/exogcfutal/cmodexog.m` | Function that inverts amenities and productivities and solves for equilibrium wages given observed data simultaneously. Called by cfprep_TD.m. | -|
+| `matlab/section6/calibration/cdensityE.m` | Function that recovers density of development, total floor space, commercial floor space, residential floor space, and commercial floor space share. Called by cfprep_TD.m. |- |
+| **`matlab/section6/exogcfutal/cftualexog_TD`** | Runs illustrative counterfactuals and illustrates the effects on endogenous outcomes. | -|
+| `matlab/section6/exogcfutal/smodex` | Program that solves for the equilibrium for given primitives under exogenous fundamentals in the closed-city case (exogenous employment).  | -|
 
 **Section 7 Counterfactuals with Endogenous Agglomeration Forces**
 
 | Script | Description | Special Instructions |
 | --- | --- | --- |
 | `cftualprep_end_TD.m` | Prepares data for the counterfactuals with endogenous fundamentals (generates matlab/data/endogcfual_prep_big_TD.mat). Illustrates various recovered variables and performs a comparison to the fundamentals recovered using the sequential procedure in the section6/calibration folder. |  |
-| `Cftalendog_HHbar_TD.m` | Conducts illustrative counterfactuals under endogenous agglomeration forces in a closed city and compares the results to the case with exogenous fundamentals. |  |
-| `Cftalendog_Ubar_TD.m` | Conducts illustrative counterfactuals under endogenous agglomeration forces in an open city and compares the results to the closed-city case. |  |
-| `cprod.m` | Function that decomposes productivities recovered by cmodexog.m into endogenous and exogenous components. |  |
-| `cres.m` | Function that decomposes amenities recovered by cmodexog.m into endogenous and exogenous components. |  |
-| `ubar.m` | Function that recovers the exogenous reservation utility level. |  |
-| `smodendog.m` | Function that solves for the equilibrium under endogenous agglomeration forces in the closed-city case (exogenous total employment). |  |
-| `ussmodendog.m` | Function that solves for the equilibrium under endogenous agglomeration forces in the open-city case (exogenous utility). |  |
+| `Cftalendog_HHbar_TD.m` | Conducts illustrative counterfactuals under endogenous agglomeration forces in a closed city and compares the results to the case with exogenous fundamentals. | - |
+| `Cftalendog_Ubar_TD.m` | Conducts illustrative counterfactuals under endogenous agglomeration forces in an open city and compares the results to the closed-city case. |  -|
+| `cprod.m` | Function that decomposes productivities recovered by cmodexog.m into endogenous and exogenous components. |  -|
+| `cres.m` | Function that decomposes amenities recovered by cmodexog.m into endogenous and exogenous components. |  -|
+| `ubar.m` | Function that recovers the exogenous reservation utility level. |  -|
+| `smodendog.m` | Function that solves for the equilibrium under endogenous agglomeration forces in the closed-city case (exogenous total employment). |  -|
+| `ussmodendog.m` | Function that solves for the equilibrium under endogenous agglomeration forces in the open-city case (exogenous utility). |  -|
 
 ## Shapefiles
 
