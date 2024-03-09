@@ -56,13 +56,13 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 | `matlab/prepdata_TD06ftpub.m` | Reads 2006 travel times without cars and saves them as ttpublic_2006_ren.mat for use in counterfactuals. | You do not need to execute this file unless you want to add variables from the replication directory or you want to recreate the `ttpublic_2006_ren.mat` file from the original data in the replication directory. |
 | **`matlab/MAPIT`** | Function that can be called to create simple maps that illustrate outcomes by block. Useful to develop an intuition for the variables that are being generated and how they relate to each other economically. Especially if you are familiar with the geography of Berlin. | |
 
-**One-step epsilon estimation and Section 6 Quantification with exogenous amenities** 
+**One-step epsilon estimation**
 
 | Script | Description | Special Instructions |
 | --- | --- | --- |
-| **One-step epsilon estimation** | `matlab/section6/optimepsilon/optimepsilon_TD86.m` | Script containing the steps involved in the one-step estimation of epsilon. |
-|  | `matlab/section6/optimepsilon/comegaopt0.m` | Function containing the solver that solves for transformed wages omega. |
-|  | `matlab/section6/optimepsilon/cdensityoptren.m` | Objective function that is being minimized when estimating epsilon. |
+ `matlab/section6/optimepsilon/optimepsilon_TD86.m` | Script containing the steps involved in the one-step estimation of epsilon. | -|
+|  `matlab/section6/optimepsilon/comegaopt0.m` | Function containing the solver that solves for transformed wages omega. | -|
+|  `matlab/section6/optimepsilon/cdensityoptren.m` | Objective function that is being minimized when estimating epsilon. | -|
 
 **Section 6 quantification with exogenous amenities (sequential procedure)** 
 
@@ -76,4 +76,13 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 |  `/matlab/section6/calibration/cdensity.m` | Function that recovers density of development, total floor space, residential floor space share. |
 |  `/matlab/section6/calibration/modbezirk.m` | Function that generates modern Bezirke identifier. |
 
+**Section 6 Counterfactuals with Exogenous Amenities**
+
+| Script | Description | Special Instructions |
+| --- | --- |
+| **`matlab/section6/exogcfutal/cfprep_TD.m`** | Prepares data for the counterfactuals with exogenous fundamentals (generates exogcfutal_prep_big_TD.mat). Illustrates various recovered variables and performs a comparison to the fundamentals recovered using the sequential procedure in the section6/calibration folder. |
+| `matlab/section6/exogcfutal/cmodexog.m` | Function that inverts amenities and productivities and solves for equilibrium wages given observed data simultaneously. Called by cfprep_TD.m. |
+| `matlab/section6/calibration/cdensityE.m` | Function that recovers density of development, total floor space, commercial floor space, residential floor space, and commercial floor space share. Called by cfprep_TD.m. |
+| **`matlab/section6/exogcfutal/cftualexog_TD`** | Runs illustrative counterfactuals. |
+| `matlab/section6/exogcfutal/smodex` | Program that solves for the equilibrium for given primitives under exogenous fundamentals in the closed-city case (exogenous employment). |
 
