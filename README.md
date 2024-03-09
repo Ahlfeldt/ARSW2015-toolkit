@@ -55,8 +55,7 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 | `matlab/prepdata_TD86.m` | Loads various data files provided in the replication directory. Many files are not read in this teaching directory to save space. Output is saved as Matlab/data/prepdata_big_TD86.mat. | You do not need to execute this file unless you want to add variables from the replication directory or you want to recreate the `prepdata_big_TD86.mat` file from the original data in the replication directory. |
 | `matlab/prepdata_TD06ftpub.m` | Reads 2006 travel times without cars and saves them as ttpublic_2006_ren.mat for use in counterfactuals. | You do not need to execute this file unless you want to add variables from the replication directory or you want to recreate the `ttpublic_2006_ren.mat` file from the original data in the replication directory. |
 | **`matlab/MAPIT`** | Function that can be called to create simple maps that illustrate outcomes by block. Useful to develop an intuition for the variables that are being generated and how they relate to each other economically. Especially if you are familiar with the geography of Berlin. | |
-
-## One-step epsilon estimation and Section 6 Quantification with Exogenous Amenities
+| One-step epsilon estimation and Section 6 Quantification with Exogenous Amenities |
 
 | Category | Script | Description |
 | --- | --- | --- |
