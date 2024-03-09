@@ -113,6 +113,12 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 | `BerlinGreen` | Shapefile of green spaces |
 | `BerlinWater` | Shapefile of water bodies |
 
+## Other files
+
+| File | Description |
+| --- | --- |
+| `Codebook.pdf`| This codebook summarizes the primitives and endogenous objects of the models and introduces selected numerical algorithms in pseudo-code. The focus is on algorithms that are essential for the quantification and simulation of the respective quantitative models. |
+
 ## Further resources:
 
 Ahlfeldt, Redding, Sturm, Wolf (2015): The Economics of Density: Evidence from the Berlin Wall, 83(6), p. 21272189. [https://doi.org/10.3982/ECTA10876](https://doi.org/10.3982/ECTA10876). The journal website provides the link to the full replication directory.
