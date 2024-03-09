@@ -76,11 +76,11 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 | --- | --- | --- |
 | `matlab/section6/calibration/calcal_TD.m` | Script containing the steps involved in the quantification. | -|
 |   `matlab/section6/calibration/calcal_adj_TD.m` | Program that rescales amenities and productivities so that they generate a population in the data that matches the model. | This program has no equivalent in the original replication directory. It only needs to be run if you are interested in the level of productivities and amenities. It must be run if you want to use the amenities and productivities recovered in this section in the smodemx.m solver in Section 6. | 
-|   `/matlab/section6/calibration/comegaoptC.m` | Function that recovers adjusted productivities and adjusted wages. |
-|  `/matlab/section6/calibration/camen.m` | Function that recovers commuting adjusted amenities. |
-|  `/matlab/section6/calibration/expincome.m` | Function that recovers total expected worker income. |
-|  `/matlab/section6/calibration/cdensity.m` | Function that recovers density of development, total floor space, residential floor space share. |
-|  `/matlab/section6/calibration/modbezirk.m` | Function that generates modern Bezirke identifier. |
+|   `/matlab/section6/calibration/comegaoptC.m` | Function that recovers adjusted productivities and adjusted wages. | -|
+|  `/matlab/section6/calibration/camen.m` | Function that recovers commuting adjusted amenities. | -|
+|  `/matlab/section6/calibration/expincome.m` | Function that recovers total expected worker income. | -|
+|  `/matlab/section6/calibration/cdensity.m` | Function that recovers density of development, total floor space, residential floor space share. | -|
+|  `/matlab/section6/calibration/modbezirk.m` | Function that generates modern Bezirke identifier. | -|
 
 **Section 6 Counterfactuals with Exogenous Amenities**
 
@@ -96,7 +96,7 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 
 | Script | Description | Special Instructions |
 | --- | --- | --- |
-| `cftualprep_end_TD.m` | Prepares data for the counterfactuals with endogenous fundamentals (generates matlab/data/endogcfual_prep_big_TD.mat). Illustrates various recovered variables and performs a comparison to the fundamentals recovered using the sequential procedure in the section6/calibration folder. |  |
+| `cftualprep_end_TD.m` | Prepares data for the counterfactuals with endogenous fundamentals (generates matlab/data/endogcfual_prep_big_TD.mat). Illustrates various recovered variables and performs a comparison to the fundamentals recovered using the sequential procedure in the section6/calibration folder. |  -|
 | `Cftalendog_HHbar_TD.m` | Conducts illustrative counterfactuals under endogenous agglomeration forces in a closed city and compares the results to the case with exogenous fundamentals. | - |
 | `Cftalendog_Ubar_TD.m` | Conducts illustrative counterfactuals under endogenous agglomeration forces in an open city and compares the results to the closed-city case. |  -|
 | `cprod.m` | Function that decomposes productivities recovered by cmodexog.m into endogenous and exogenous components. |  -|
