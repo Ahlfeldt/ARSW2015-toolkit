@@ -216,7 +216,7 @@ save('data/output/endogcftual_AE_HHbar','Cendog_cft','Cucprob_cft','HH_cft','Cco
 
 % Compute percentage changes and map
 pccAE_end_HHbar = (Cendog_cft ./ Cendog -1).*100;                           % Compute percentage changes
-UpccAE_end_HHbar = (Ubar06_cft./Ubar06-1).*100                              % Expected utility increases 3.1% (compared to 3.8% under exogenous fundametnals)
+UpccAE_end_HHbar = (Ubar06_cft./Ubar06-1).*100                              % Expected utility increases 3.1% (compared to 3.8% under exogenous fundamentals)
 pccAE_end_HHbar(pccAE_end_HHbar>100)=100;   % Truncate changes at -50% and +100% for a clarity of the map
 pccAE_end_HHbar(pccAE_end_HHbar<-50)=-50;   % Truncate changes at -50% and +100% for a clarity of the map
 
@@ -314,9 +314,9 @@ distWALLrunning(index) = distWALLr(index) .* -1;
 clf;
 fig = figure;
 set(fig,'Position',[100,100,1200,600]); % [left, bottom, width, height]
-scatter(distWALLrunning(emprsd06>0),pccAE_end_HHbar_CHM(emprsd06>0));
+scatter(distWALLrunning(emprsd06>0),pccAE_end_HHbar_CHR(emprsd06>0));
 hold on;
-scatter(distWALLrunning(emprsd06>0),pccAE_exog_CHM(emprsd06>0));
+scatter(distWALLrunning(emprsd06>0),pccAE_exog_CHR(emprsd06>0));
 line(xlim,[0 0],'Color','k','LineStyle','--');
 line([0 0],ylim,'Color','k','LineStyle','--');
 hold off;
