@@ -13,6 +13,7 @@ A program has been added to rescale productivities and amenities recovered using
 Before you can start, you **need to install the following MATLAB toolboxes:**
 
 - Global optimization toolbox
+- Optimization toolbox
 - Mapping toolbox
 - Statistics and machine learning toolbox
 
