@@ -117,6 +117,7 @@ When using the toolkit in your work, please cite Ahlfeldt, Redding, Sturm, Wolf 
 | `WestBerlin4matlab` | Same as Berlin4matlab, but restricted to blocks in former West Berlin |
 | `BerlinGreen` | Shapefile of green spaces |
 | `BerlinWater` | Shapefile of water bodies |
+| `Bezirke23` | Shapefile of Bezirke 23 boundaries |
 
 ## Other files
 
