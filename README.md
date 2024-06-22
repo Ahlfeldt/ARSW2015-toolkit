@@ -2,7 +2,7 @@
 
 **© Gabriel M. Ahlfeldt, S. J. Redding, D. Sturm, N. Wolf**
 
-Version 0.91, 2024
+Version 0.92, 2024
 
 ## General Remarks
 
@@ -131,4 +131,8 @@ Ahlfeldt, Redding, Sturm, Wolf (2015): The Economics of Density: Evidence from t
 ## Acknowledgements: 
 
 We thank Alexander Hansen and Andrea Herrera for comments and suggestions.
+
+## Version history: 
+
+Version 0.92: MAPIT programme improved by implementing Jenks Breaks for categorization. Bezirke23 shapefile added to illustrate Bezirke boundaries on maps.
 
