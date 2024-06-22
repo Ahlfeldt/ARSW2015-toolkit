@@ -20,5 +20,8 @@ BerlinGreen:		Blocks covered by green spaces. Used by MAPIT.m programme to creat
 BerlinWater:		Blocks covered by water. Used by MAPIT.m programme to create 
 			better-looking maps that provide improved orientation
 
+Bezirke23		Shapefile containing boundaries of Berliner Bezirke. Used by MAPIT.m programme to create 
+			better-looking maps that provide improved orientation
+
 WestBerlin4matlap:	Shapefile containing only West-Berlin blocks compatible with the
 			Matlab data set.	
