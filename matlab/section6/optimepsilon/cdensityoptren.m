@@ -71,8 +71,8 @@ f = ftt.*(10.^6);                                                           % We
 % supplement. This moment condition says
 % E((1/epsilon)^2 ln(omega)^2-(sigma_(ln(w)))^2)=0. This notation makes
 % explicit that we can use the moment condition to identify epsilon. In the
-% code above we have creat the adjusted wage wage86rw from transformed the
-% transformed wage omega in line 36. Therefore epsilon no longer shows up
+% code above we have created the adjusted wage wage86rw from 
+% transformed wage, omega, in line 36. Therefore, epsilon no longer shows up
 % when we compute the RSS between adjusted wages in the model and observed
 % wages in data. Notice further that E((1/epsilon)^2 ln(omega)^2) is the
 % variance of transformed wages since omega has a mean of one and, hence,
