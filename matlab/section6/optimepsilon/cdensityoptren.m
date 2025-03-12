@@ -77,5 +77,5 @@ f = ftt.*(10.^6);                                                           % We
 % wages in data. Notice further that E((1/epsilon)^2 ln(omega)^2) is the
 % variance of transformed wages since omega has a mean of one and, hence,
 % ln(omega)=0. Recall that the variance of (1/epsilon) ln(omega) is 
-E((1/epsilon)^2 ln(omega)^2)) - (E(1/epsilon) ln(omega))^2.
+% E((1/epsilon)^2 ln(omega)^2)) - (E(1/epsilon) ln(omega))^2.
 
