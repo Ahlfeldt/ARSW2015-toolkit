@@ -82,7 +82,7 @@ wT=fund(:,8); vvT=fund(:,9);
 thetaT=fund(:,10);
 
 % Use density of development and land area to compute total floor space
-L=V.*(K.^0.75);                                                             % This uses Eq. (15)
+L=V.*(K.^0.25);                                                             % This uses Eq. (15)
 
 % Only take dimensions with positives (positive workplace employment
 % implies positive productivities. Same for residence employment and

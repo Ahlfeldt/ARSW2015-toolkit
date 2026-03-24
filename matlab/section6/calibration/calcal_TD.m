@@ -177,7 +177,7 @@ RESULT = MAPIT('../shapefile/Berlin4matlab',CMA06,'Commuter market access','figs
 %%% input into the smodexpg.m solver
 
 % Update productivities and amenities
-[A06,B06,wage06] = calcal_adj_TD(obsvar06,tt06,nobs06,A06,B06);
+[A06,B06,wage06,CMA06] = calcal_adj_TD(obsvar06,tt06,nobs06,A06,B06);
 
 % *****************************;
 % **** TOTAL WORKER INCOME ****;

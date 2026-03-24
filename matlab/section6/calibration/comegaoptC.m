@@ -66,7 +66,7 @@ nfrom = sum(Irsd);                                                          % Th
 EHMT = HMT(Iwpl);                                                           % Generates a vector of workplace employment only containing observations with positive workplace emplyoment (it has nto observations)
 EHRT = HRT(Irsd);                                                           % Generates a vector of residence employment only containing observations with positive residence emplyoment (it has nfrom observations)
 Eomega = omega(Iwpl);                                                       % Generates a vector of guesses of transformed wages for observations with positive workplace employment (it has nto observations)
-Edistvar=distvar(Iwpl,Irsd);                                                % Generates a smaller travel time matrix that connects only observations with positive workplace employment to observations with residence emplyoment (it has nto by nfrom osbervations)
+Edistvar=distvar(Irsd,Iwpl);                                                % Generates a smaller travel time matrix that connects only observations with positive workplace employment to observations with residence emplyoment (it has nto by nfrom osbervations)
                                                                             % Notice that in this matrix, workplaces are rows and residences are columns 
 clear distvar                                                               % clear variable to save memory
 

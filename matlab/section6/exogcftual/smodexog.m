@@ -149,7 +149,7 @@ while x<1000;                                                               % De
 % We compute residence and workplace employment via commuting probabilities using guesses of wages and floor space prices and fundamental amenity;
 % In the below matrices, we have living in i (rows) and working in j (cols);
 % Notice that _i subscripts may indicate guesses (not residence locations, e.g. for wages)
-EQQ=repmat(QT(Irsd),1,nwpl);                                                % We assign guesses of residence floor space prices to all bilaterals. We take the vector of floor space prices, generate a new vector only for observations with positive residence employment, and replicates it nwpl times to generate a nrsd x nwpl matrix
+EQQ=repmat(Q_i(Irsd),1,nwpl);                                                % We assign guesses of residence floor space prices to all bilaterals. We take the vector of floor space prices, generate a new vector only for observations with positive residence employment, and replicates it nwpl times to generate a nrsd x nwpl matrix
 EQQ=EQQ.^(-(1-beta).*epsilon);                                              % Generate the first component of bilateral commuting probabilities in Eq. 4: floor space prices to the power of (1-beta) x -epsilon 
 EBB=repmat(EB,1,nwpl);                                                      % We assign residence amenities to all bilaterals. Takes the vector of amenities for observations with positive residence emplyoment and replicates it to generate an nrds x nwpl matrix
 EBB=EBB.^epsilon;                                                           % Generates the next component of bilateral commuting probabilities: B to the power of epsilon 
@@ -217,7 +217,7 @@ Q_e(Iis)=(((1-alpha).*Y(Iis))+((1-beta).*vv(Iis)))./LD(Iis);                % Fo
 
 % Solve for theta for which the land market clears;
 theta_e=theta_i;                                                            % Completely specialized blocks never change since amenity or productivity are zero, so predicted theta correponds guesses (initial values). We only update mixed use shares in the next line
-theta_e(Iis)=((1-alpha).*Y(Iis))./(q_e(Iis).*LD(Iis));                      % We use the facotr input demand function derived from Eq. (10). Commercial floor space input LM is (1-alpha)*Y / q. Theta is LM/LD. Combining the two we can predict the commerical floor space share for imperfectly specialized blocks using predicted outputs and rents
+theta_e(Iis)=((1-alpha).*Y(Iis))./(q_i(Iis).*LD(Iis));                      % We use the facotr input demand function derived from Eq. (10). Commercial floor space input LM is (1-alpha)*Y / q. Theta is LM/LD. Combining the two we can predict the commerical floor space share for imperfectly specialized blocks using predicted outputs and rents
 
 %%% Now we have closed to loop from guesses to predicted values of the 
 %%% target variables wage, floor space price and floor space share;

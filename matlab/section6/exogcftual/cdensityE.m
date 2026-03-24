@@ -58,5 +58,6 @@ LR(Irsd)=((1-beta).*vv(Irsd))./QT(Irsd);                                    % We
 
 % Total floor space demand;
 LD=LM+LR;                                                                   % Total floor space demand is simply the sum of commercial and residential floor space demand                                                              
-Vout=LD./(K.^0.75);                                                         % We solve for density of development varphi using Eq. S31
+Vout=LD./(K.^0.25);                                                         % We solve for density of development varphi using Eq. S31
 thetaout=LM./LD;                                                            % Share of commercial floor space theta is residential floor space
+

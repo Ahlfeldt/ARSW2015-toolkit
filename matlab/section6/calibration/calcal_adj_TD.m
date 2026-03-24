@@ -24,7 +24,7 @@
 %%% rescaled wages, we amenities so that we match the city population in
 %%% the model (Phi = city population)
 
-function [Aout,Bout,wageout] = calcal_adj_TD(obsdata,distvar,noj,A,B)
+function [Aout,Bout,wageout,CMA] = calcal_adj_TD(obsdata,distvar,noj,A,B)
     % This program uses the following inputs
         % obsdata refers to an n by 4 object that contains a vector of four variables,
             % floor space prices, worplace employment, residence employment, and area        
@@ -85,6 +85,11 @@ Ephi=sum(sum(Ephi_ij));                                                     % We
 % Adjust amenities to match the right population
 EB=((HH./Ephi).^(1./epsilon)).*EB;                                          % If the ratio of the total population in the data over the population in the model is positive, we inflate amenities
                                                                             % From normalization of U_bar explained on page 18 in the supplement we have that H = Phi (the term in Brackets in the H equation). This equation reveals that we can move a multiplicative component Badjustment^epsilon in B_i out of the summation and use it to reach any population level H. 
+% Adjust CMA to conform to new wages;
+ECMA=d_ij_eps*(Ewage.^epsilon);                                             % We recreate residential commuter market access since we have normalized it before
+CMA=zeros(noj,1);                                                           % We create a column vector of length n
+CMA(Irsd)=ECMA;                                                             % Map commuter market access from the vector containing locations with postive residence employment into the vector containing all observations. Observations with zero residence employment receive a theory-consistent zero value. 
+                                                              
                                                                             % If we have H = "adjustment factor"^epsilon * Phi, the it follows that "adjustment factor" = (H/Phi)^(1/epsilon)
 % Compute recaled productivities and amenities for all blocks
 Aout=zeros(noj,1);
@@ -96,4 +101,5 @@ wageout(Iwpl)=Ewage ;                                                          %
 display('>>>> Productivities and amenities updated <<<<');
 
         
+
        
